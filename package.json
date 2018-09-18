@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "start-emulator": "emulator -avd Nexus_5X_API_27"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "eslint-config-rallycoding": "^3.2.0",
     "react": "16.5.0",
     "react-native": "0.57.0"
